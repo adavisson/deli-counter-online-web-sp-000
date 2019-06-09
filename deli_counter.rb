@@ -4,8 +4,10 @@ def line(queue)
   if queue.length < 1
     puts "The line is currently empty."
   else
+    str = "The line is currently:"
     queue.each_with_index do |customer,idx|
-      puts "#{customer} is number #{idx+ + 1} in line."
+      str.push(" #{idx + 1}. #{customer}")
     end
+    return str
   end
 end
