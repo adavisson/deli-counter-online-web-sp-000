@@ -11,3 +11,8 @@ def line(queue)
     puts str
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(katz_deli)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+end
