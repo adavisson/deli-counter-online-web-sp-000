@@ -8,6 +8,6 @@ def line(queue)
     queue.each_with_index do |customer,idx|
       str.push(" #{idx + 1}. #{customer}")
     end
-    return str
+    puts str
   end
 end
