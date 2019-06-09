@@ -6,7 +6,7 @@ def line(queue)
   else
     str = "The line is currently:"
     queue.each_with_index do |customer,idx|
-      str.push(" #{idx + 1}. #{customer}")
+      str << " #{idx + 1}. #{customer}"
     end
     puts str
   end
